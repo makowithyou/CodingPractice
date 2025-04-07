@@ -61,4 +61,10 @@ p.detail {
 
 /* 広い画面向けの CSS */
 @media (min-width: 800px) {
+    img {
+        height: 300px;
+    }
+    .items {
+        grid-template-columns: 1fr 1fr;
+    }
 }
